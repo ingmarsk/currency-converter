@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root to: 'currency_converter#new'
+
+  get 'currency_converter/new'
+  post 'currency_converter/convert'
 end

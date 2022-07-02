@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title CurrencyConverter
+    %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+    %link{:href => "https://unpkg.com/papercss@1.8.3/dist/paper.min.css", :rel => "stylesheet"}/
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    = yield

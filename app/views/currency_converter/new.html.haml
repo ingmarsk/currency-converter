@@ -1,0 +1,12 @@
+%h3 Currency Converter
+
+= simple_form_for :currency, url: currency_converter_convert_path, method: :post do |f|
+  = f.input :from_currency, collection: supported_currencies_collection, include_blank: false, selected: 'USD'
+  %br
+  = f.input :to_currency, collection: supported_currencies_collection, include_blank: false, selected: 'EUR'
+  %br
+  = f.input :amount, as: :integer, input_html: { step: 0.01 }
+  %br
+  = f.button :submit, 'Convert', class: 'btn-block'
+  %br
+  = render 'shared/flashes'
