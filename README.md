@@ -1,24 +1,23 @@
-# README
+# Currency Converter :currency_exchange:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Dependencies
 
-* Ruby version
+|  Dependency | Version |
+| ------------ | ------------ |
+|  Ruby | 3.0.0  |
+|  Rails | 6.1.6  |
+| Bundler |2.2.3|
 
-* System dependencies
 
-* Configuration
+## Setup
 
-* Database creation
+`$ bundle install`
 
-* Database initialization
+`$ db:setup`
 
-* How to run the test suite
+`$ rails s` (http://localhost:3000/)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Example
 
-* Deployment instructions
-
-* ...
+<img width="705" alt="Screenshot 2022-07-02 at 12 01 02" src="https://user-images.githubusercontent.com/20913661/176995872-56203c74-2c85-436f-a1d1-712f96f08c79.png">
