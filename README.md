@@ -16,7 +16,7 @@
 
 `$ db:setup`
 
-`$ rails s` (http://localhost:3000/)
+`$ rails s` ([http://localhost:3000/currency_converter/new](http://localhost:3000/currency_converter/new))
 
 ## Example
 
